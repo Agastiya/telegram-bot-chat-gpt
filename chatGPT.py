@@ -22,7 +22,3 @@ def chatGPT(question):
     resJson = response.json()
     answer = resJson['choices'][0]['text']
     return answer
-
-
-# text = chatGPT("Siapa nama Presiden Indoensia?")
-# print(text)
