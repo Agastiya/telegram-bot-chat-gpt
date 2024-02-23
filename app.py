@@ -35,7 +35,7 @@ def chatGPT(question):
     return answer
 
 
-bot = telebot.TeleBot(os.getenv('TOKEN_TELEGRAM_BOT'))
+bot = telebot.TeleBot(os.environ.get('TOKEN_TELEGRAM_BOT'))
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
