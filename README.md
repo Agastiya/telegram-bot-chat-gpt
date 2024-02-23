@@ -27,7 +27,7 @@ Several stages that need to be prepared at this stage are as follows :
 
 * Clone this repository
 
-        git clone 
+        git clone https://github.com/Agastiya/telegram-bot-chat-gpt.git
 
 * Create .env file
         
