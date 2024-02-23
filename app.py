@@ -11,8 +11,8 @@ import requests
 load_dotenv()
 
 def chatGPT(question):
-    api_base = os.getenv('API_BASE')
-    api_key = os.getenv('API_KEY')
+    api_base = os.environ.get('API_BASE')
+    api_key = os.environ.get('API_KEY')
 
     headers = {
         'Content-Type': 'application/json',
